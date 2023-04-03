@@ -59,6 +59,7 @@ function generateTitleLinks(){
 
   const articles = document.querySelector(optArticleSelector);
 
+  for (let article of articles) {
     /* get the article id */
 
     /* find the title element */
@@ -69,6 +70,7 @@ function generateTitleLinks(){
 
     /* insert link into titleList */
 
+  }
 }
 
 generateTitleLinks();
