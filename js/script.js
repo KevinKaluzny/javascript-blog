@@ -118,7 +118,9 @@ function generateTags(){
 
       const link = '<li><a href="#tag-' + tag + '">' + tag + '</a></li>';
 
-      /* add generated code to html variable */
+      /* [DONE] add generated code to html variable */
+
+      html += link;
 
     /* END LOOP: for each tag */
 
