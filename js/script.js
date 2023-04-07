@@ -175,11 +175,15 @@ function addClickListenersToTags(){
 
   const links = document.querySelectorAll('a[href^="#tag-"]');
 
-  /* START LOOP: for each link */
+  /* [IN PROGRESS] START LOOP: for each link */
+
+  for (let link of links) {
 
     /* add tagClickHandler as event listener for that link */
 
-  /* END LOOP: for each link */
+  /* [IN PROGRESS] END LOOP: for each link */
+
+  }
 }
 
 addClickListenersToTags();
