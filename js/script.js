@@ -110,13 +110,17 @@ function generateTags(){
 
     const tagsArray = tags.split(' ');
 
-    /* START LOOP: for each tag */
+    /* [IN PROGRESS] START LOOP: for each tag */
+
+    for (let tag of tagsArray) {
 
       /* generate HTML of the link */
 
       /* add generated code to html variable */
 
     /* END LOOP: for each tag */
+
+    }
 
     /* insert HTML of all the links into the tags wrapper */
 
