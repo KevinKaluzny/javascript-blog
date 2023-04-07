@@ -90,13 +90,13 @@ function generateTags(){
 
   const articles = document.querySelectorAll('article');
 
-  /* START LOOP: for every article: */
+  /* [DONE] START LOOP: for every article: */
 
   for (let article of articles) {
 
     /* [DONE] find tags wrapper */
 
-    const tagWrapper = article.querySelector(optArticleTagsSelector);
+    const tagsWrapper = article.querySelector(optArticleTagsSelector);
 
     /* [DONE] make html variable with empty string */
 
@@ -110,7 +110,7 @@ function generateTags(){
 
     const tagsArray = tags.split(' ');
 
-    /* [IN PROGRESS] START LOOP: for each tag */
+    /* [DONE] START LOOP: for each tag */
 
     for (let tag of tagsArray) {
 
@@ -122,13 +122,15 @@ function generateTags(){
 
       html += link;
 
-    /* END LOOP: for each tag */
+    /* [DONE] END LOOP: for each tag */
 
     }
 
-    /* insert HTML of all the links into the tags wrapper */
+    /* [DONE] insert HTML of all the links into the tags wrapper */
 
-  /* END LOOP: for every article: */
+    tagsWrapper.innerHTML = html;
+
+  /* [DONE] END LOOP: for every article: */
 
   }
 }
