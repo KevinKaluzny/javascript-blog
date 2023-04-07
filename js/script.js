@@ -98,7 +98,9 @@ function generateTags(){
 
     const tagWrapper = article.querySelector(optArticleTagsSelector);
 
-    /* make html variable with empty string */
+    /* [DONE] make html variable with empty string */
+
+    let html = '';
 
     /* get tags from data-tags attribute */
 
