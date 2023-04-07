@@ -102,7 +102,9 @@ function generateTags(){
 
     let html = '';
 
-    /* get tags from data-tags attribute */
+    /* [DONE] get tags from data-tags attribute */
+
+    const tags = article.getAttribute('data-tags');
 
     /* split tags into array */
 
