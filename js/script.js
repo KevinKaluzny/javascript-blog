@@ -41,7 +41,7 @@ function titleClickHandler(event) {
 const optArticleSelector = '.post',
   optTitleSelector = '.post-title',
   optTitleListSelector = '.titles',
-  optArticleTagsSelector = '.post-tags';
+  optArticleTagsSelector = '.post-tags .list';
 
 function generateTitleLinks() {
 
@@ -94,7 +94,9 @@ function generateTags(){
 
   for (let article of articles) {
 
-    /* find tags wrapper */
+    /* [DONE] find tags wrapper */
+
+    const tagWrapper = article.querySelector(optArticleTagsSelector);
 
     /* make html variable with empty string */
 
