@@ -86,11 +86,13 @@ function generateTitleLinks() {
 generateTitleLinks();
 
 function generateTags(){
-  /* find all articles */
+  /* [DONE] find all articles */
 
   const articles = document.querySelectorAll('article');
 
   /* START LOOP: for every article: */
+
+  for (let article of articles) {
 
     /* find tags wrapper */
 
@@ -111,6 +113,8 @@ function generateTags(){
     /* insert HTML of all the links into the tags wrapper */
 
   /* END LOOP: for every article: */
+
+  }
 }
 
 generateTags();
