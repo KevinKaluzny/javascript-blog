@@ -154,7 +154,9 @@ function tagClickHandler(event){
 
   const tag = href.slice(5, href.length);
 
-  /* find all tag links with class active */
+  /* [DONE] find all tag links with class active */
+
+  const activeTagLinks = document.querySelectorAll('a.active[href^="#tag-"]');
 
   /* START LOOP: for each active tag link */
 
