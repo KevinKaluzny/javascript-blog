@@ -110,7 +110,7 @@ function generateTags(){
 
     const tagsArray = tags.split(' ');
 
-    /* [DONE] START LOOP: for each tag */
+    /* [DONE] START LOOP: for each tag */ 
 
     for (let tag of tagsArray) {
 
@@ -162,7 +162,9 @@ function tagClickHandler(event){
 
   /* END LOOP: for each active tag link */
 
-  /* find all tag links with "href" attribute equal to the "href" constant */
+  /* [DONE] find all tag links with "href" attribute equal to the "href" constant */
+
+  const tagLinks = document.querySelectorAll('a[href="' + href + '"]');
 
   /* START LOOP: for each found tag link */
 
@@ -176,7 +178,7 @@ function tagClickHandler(event){
 function addClickListenersToTags(){
   /* [DONE] find all links to tags */
 
-  const links = document.querySelectorAll('a[href^="#tag-"]');
+  const links = document.querySelectorAll('a[href^="#"]');
 
   /* [DONE] START LOOP: for each link */
 
