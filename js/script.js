@@ -229,6 +229,7 @@ function authorClickHandler(event) {
   event.preventDefault();
   const clickedElement = this;
   const author = clickedElement.innerHTML;
+  generateTitleLinks('[data-author="' + author + '"]');
 }
 
 function addClickListenersToAuthors() {
