@@ -226,7 +226,7 @@ function generateAuthors() {
 generateAuthors();
 
 function authorClickHandler(event) {
-
+  event.preventDefault();
 }
 
 function addClickListenersToAuthors() {
