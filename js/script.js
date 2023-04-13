@@ -210,3 +210,7 @@ function addClickListenersToTags(){
 }
 
 addClickListenersToTags();
+
+function generateAuthors() {
+  
+}
