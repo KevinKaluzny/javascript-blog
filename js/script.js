@@ -224,3 +224,7 @@ function generateAuthors() {
 }
 
 generateAuthors();
+
+function addClickListenersToAuthors() {
+  
+}
