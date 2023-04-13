@@ -225,6 +225,10 @@ function generateAuthors() {
 
 generateAuthors();
 
+function authorClickHandler() {
+
+}
+
 function addClickListenersToAuthors() {
   
 }
