@@ -225,7 +225,7 @@ function generateAuthors() {
 
 generateAuthors();
 
-function authorClickHandler() {
+function authorClickHandler(event) {
 
 }
 
