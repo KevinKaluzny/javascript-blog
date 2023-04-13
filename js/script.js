@@ -216,7 +216,7 @@ function generateAuthors() {
   const articles = document.querySelectorAll('article');
 
   for (let article of articles) {
-
+    const authorWrapper = article.querySelector(optArticleAuthorSelector);
   }
 }
 
