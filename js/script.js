@@ -228,6 +228,7 @@ generateAuthors();
 function authorClickHandler(event) {
   event.preventDefault();
   const clickedElement = this;
+  const author = clickedElement.innerHTML;
 }
 
 function addClickListenersToAuthors() {
