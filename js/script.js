@@ -231,6 +231,10 @@ function authorClickHandler() {
 
 function addClickListenersToAuthors() {
   const links = document.querySelectorAll('.post-author a');
+
+  for (let link of links) {
+    link.addEventListener('click', authorClickHandler);
+  }
 }
 
 addClickListenersToAuthors();
