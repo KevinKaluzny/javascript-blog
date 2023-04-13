@@ -212,7 +212,7 @@ function addClickListenersToTags(){
 addClickListenersToTags();
 
 function generateAuthors() {
-  
+  const articles = document.querySelectorAll('article');
 }
 
 generateAuthors();
