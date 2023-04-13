@@ -230,7 +230,7 @@ function authorClickHandler() {
 }
 
 function addClickListenersToAuthors() {
-  
+  const links = document.querySelectorAll('.post-author a');
 }
 
 addClickListenersToAuthors();
