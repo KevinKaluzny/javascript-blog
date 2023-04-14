@@ -128,9 +128,9 @@ function generateTags(){
       html += link;
 
       /* [NEW] check if this link is NOT already in allTags */
-      if(allTags.indexOf(link) == -1){
-        /* [NEW] add generated code to allTags array */
-        allTags.push(link);
+      if(!allTags.hasOwnProperty(tag)){
+        /* [NEW] add tag to allTags object */
+        allTags[tag] = 1;
       }
 
     /* [DONE] END LOOP: for each tag */
