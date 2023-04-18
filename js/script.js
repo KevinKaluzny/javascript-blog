@@ -105,6 +105,10 @@ function calculateTagsParams(tags) {
   return params;
 }
 
+function calculateTagClass(count, params) {
+  
+}
+
 function generateTags(){
   /* [NEW] create a new variable allTags with an empty object */
   let allTags = {};
