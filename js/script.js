@@ -88,7 +88,21 @@ function generateTitleLinks(customSelector = '') {
 generateTitleLinks();
 
 function calculateTagsParams(tags) {
+  let params = {max: 0, min: 999999};
+
+  for (let tag in tags) {
+    if (params.max < tags[tag]) {
+      params.max = tags[tag];
+    }
+
+    if (params.min > tags[tag]) {
+      params.min = tags[tag];
+    }
+  }
+
+  console.log(params);
   
+  return params;
 }
 
 function generateTags(){
