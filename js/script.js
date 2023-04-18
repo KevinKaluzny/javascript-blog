@@ -149,9 +149,18 @@ function generateTags(){
   /* [NEW] find list of tags in right column */
   const tagList = document.querySelector(optTagsListSelector);
 
-  /* [NEW] add html from allTags to tagList */
-  // tagList.innerHTML = allTags.join(' ');
-  console.log(allTags);
+  /* [NEW] create variable for all links HTML code */
+  let allTagsHTML = '';
+
+  /* [NEW] START LOOP: for each tag in allTags: */
+  for (let tag in allTags ) {
+    /* [NEW] generate code of a link and add it to allTagsHTML */
+    allTagsHTML += tag + ' (' + allTags[tag] + ') ';
+  }
+  /* [NEW] END LOOP: for each tag in allTags: */
+
+  /* [NEW] add html from allTagsHTML to tagList */
+  tagList.innerHTML = allTagsHTML;
 }
 
 generateTags();
