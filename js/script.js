@@ -43,7 +43,8 @@ const optArticleSelector = '.post',
   optTitleListSelector = '.titles',
   optArticleTagsSelector = '.post-tags .list',
   optArticleAuthorSelector = '.post-author',
-  optTagsListSelector = '.tags.list';
+  optTagsListSelector = '.tags.list',
+  optCloudClassCount = 5;
 
 function generateTitleLinks(customSelector = '') {
 
@@ -99,8 +100,6 @@ function calculateTagsParams(tags) {
       params.min = tags[tag];
     }
   }
-
-  console.log(params);
   
   return params;
 }
