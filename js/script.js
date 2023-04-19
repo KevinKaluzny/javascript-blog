@@ -286,6 +286,10 @@ function generateAuthors() {
 
   const authorList = document.querySelector(optAuthorsListSelector);
   let authorListHTML = '';
+
+  for (let author in allAuthors) {
+    authorListHTML += '<li><a href="#">' + author + ' (' + allAuthors[author] + ')</a></li>';
+  }
 }
 
 generateAuthors();
