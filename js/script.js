@@ -106,7 +106,9 @@ function calculateTagsParams(tags) {
 }
 
 function calculateTagClass(count, params) {
-
+  const tagSize = Math.ceil((optCloudClassCount - 1) * (count - params.min) / (params.max - params.min)) + 1;
+  const tagClass = optCloudClassPrefix + tagSize;
+  return tagClass;
 }
 
 function generateTags(){
