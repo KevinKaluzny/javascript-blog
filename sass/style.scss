@@ -121,6 +121,14 @@ body {
 
 /* Tag */
 
+.list.tags {
+  display: inline-block;
+}
+
+.list.tags li {
+  display: inline-block;
+}
+
 .tag-size-1 {
   font-size: 80%;
 }
