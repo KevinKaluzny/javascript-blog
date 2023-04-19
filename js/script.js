@@ -285,7 +285,7 @@ function generateAuthors() {
   }
 
   const authorList = document.querySelector(optAuthorsListSelector);
-  const authorListHTML = '';
+  let authorListHTML = '';
 }
 
 generateAuthors();
