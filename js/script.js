@@ -267,10 +267,10 @@ function addClickListenersToTags(){
 addClickListenersToTags();
 
 function generateAuthors() {
+  const allAuthors = [];
   const articles = document.querySelectorAll('article');
 
   for (let article of articles) {
-    const allAuthors = [];
     const authorWrapper = article.querySelector(optArticleAuthorSelector);
     const author = article.getAttribute('data-author');
     const link = '<a href="#">' + author + '</a>';
