@@ -275,7 +275,14 @@ function generateAuthors() {
     const author = article.getAttribute('data-author');
     const link = '<a href="#">' + author + '</a>';
     authorWrapper.innerHTML = link;
+
+    if (!allAuthors.hasOwnProperty(author)) {
+      allAuthors[author] = 1;
+    } else {
+      allAuthors[author]++;
+    }
   }
+  console.log(allAuthors);
 }
 
 generateAuthors();
