@@ -288,7 +288,7 @@ function generateAuthors() {
   let authorListHTML = '';
 
   for (let author in allAuthors) {
-    authorListHTML += '<li><a href="#">' + author + ' (' + allAuthors[author] + ')</a></li>';
+    authorListHTML += '<li><a href="#"><span>' + author + '</span> (' + allAuthors[author] + ')</a></li>';
   }
 
   authorList.innerHTML = authorListHTML;
