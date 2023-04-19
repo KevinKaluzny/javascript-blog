@@ -267,7 +267,7 @@ function addClickListenersToTags(){
 addClickListenersToTags();
 
 function generateAuthors() {
-  const allAuthors = [];
+  const allAuthors = {};
   const articles = document.querySelectorAll('article');
 
   for (let article of articles) {
