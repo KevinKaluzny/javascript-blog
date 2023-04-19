@@ -283,7 +283,8 @@ function generateAuthors() {
       allAuthors[author]++;
     }
   }
-  console.log(allAuthors);
+
+  const authorList = document.querySelector(optAuthorsListSelector);
 }
 
 generateAuthors();
