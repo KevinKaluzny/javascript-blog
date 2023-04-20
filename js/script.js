@@ -2,7 +2,8 @@
 
 const templates = {
   articleLink: Handlebars.compile(document.querySelector('#template-article-link').innerHTML),
-  tag: Handlebars.compile(document.querySelector('#template-tag').innerHTML)
+  tag: Handlebars.compile(document.querySelector('#template-tag').innerHTML),
+  authorLink: Handlebars.compile(document.querySelector('#template-author-link').innerHTML),
 }
 console.log(templates);
 
@@ -155,7 +156,7 @@ function generateTags(){
 
       const tagData = {tag: tag};
       const link = templates.tag(tagData);
-      
+
       /* [DONE] add generated code to html variable */
 
       html += link;
