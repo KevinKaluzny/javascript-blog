@@ -5,6 +5,7 @@ const templates = {
   tag: Handlebars.compile(document.querySelector('#template-tag').innerHTML),
   authorLink: Handlebars.compile(document.querySelector('#template-author-link').innerHTML),
   tagCloudLink: Handlebars.compile(document.querySelector('#template-tag-cloud-link').innerHTML),
+  authorsListLink: Handlebars.compile(document.querySelector('#template-authors-list-link').innerHTML),
 }
 console.log(templates);
 
