@@ -1,7 +1,8 @@
 'use strict';
 
 const templates = {
-  articleLink: Handlebars.compile(document.querySelector('#template-article-link').innerHTML)
+  articleLink: Handlebars.compile(document.querySelector('#template-article-link').innerHTML),
+  tag: Handlebars.compile(document.querySelector('#template-tag').innerHTML)
 }
 console.log(templates);
 
