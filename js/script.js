@@ -304,7 +304,10 @@ function generateAuthors() {
   const allAuthorsData = {authors: []};
 
   for (let author in allAuthors) {
-    authorListHTML += '<li><a href="#"><span>' + author + '</span> (' + allAuthors[author] + ')</a></li>';
+    allAuthorsData.authors.push({
+      author: author,
+      count: allAuthors[author],
+    })
   }
 
   authorList.innerHTML = authorListHTML;
