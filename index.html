@@ -257,7 +257,9 @@
         <a href="#">{{ author }}</a>
     </script>
     <script id="template-tag-cloud-link" type="text/x-handlebars-template">
-        
+        {{#each tags}}
+        <li><a href="#tag-{{ tag }}" class="{{ className }}">{{ tag }}</a></li>
+        {{/each}}
     </script>
     <script src="js/script.js"></script>
 </body>
