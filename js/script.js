@@ -310,7 +310,7 @@ function generateAuthors() {
     })
   }
 
-  authorList.innerHTML = authorListHTML;
+  authorList.innerHTML = templates.authorsListLink(allAuthorsData);
 }
 
 generateAuthors();
