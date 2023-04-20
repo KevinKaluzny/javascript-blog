@@ -262,7 +262,9 @@
         {{/each}}
     </script>
     <script id="template-authors-list-link" type="text/x-handlebars-template">
-
+        {{#each authors }}
+        <li><a href="#"><span>{{ author }}</span> ({{ count }})</a></li>
+        {{/each}}
     </script>
     <script src="js/script.js"></script>
 </body>
