@@ -301,7 +301,7 @@ function generateAuthors() {
   }
 
   const authorList = document.querySelector(optAuthorsListSelector);
-  let authorListHTML = '';
+  const allAuthorsData = {authors: []};
 
   for (let author in allAuthors) {
     authorListHTML += '<li><a href="#"><span>' + author + '</span> (' + allAuthors[author] + ')</a></li>';
