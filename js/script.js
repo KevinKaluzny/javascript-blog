@@ -307,7 +307,7 @@ function generateAuthors() {
     allAuthorsData.authors.push({
       author: author,
       count: allAuthors[author],
-    })
+    });
   }
 
   authorList.innerHTML = templates.authorsListLink(allAuthorsData);
