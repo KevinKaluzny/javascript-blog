@@ -253,7 +253,7 @@ function tagClickHandler(event){
 
     tagLink.classList.add('active');
 
-  /* [DONE] END LOOP: for each found tag link */
+    /* [DONE] END LOOP: for each found tag link */
 
   }
 
