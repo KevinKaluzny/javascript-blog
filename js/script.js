@@ -179,7 +179,7 @@ function generateTags(){
 
     tagsWrapper.innerHTML = html;
 
-  /* [DONE] END LOOP: for every article: */
+    /* [DONE] END LOOP: for every article: */
 
   }
   /* [NEW] find list of tags in right column */
