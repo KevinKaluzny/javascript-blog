@@ -171,7 +171,7 @@ function generateTags(){
         allTags[tag]++;
       }
 
-    /* [DONE] END LOOP: for each tag */
+      /* [DONE] END LOOP: for each tag */
 
     }
 
