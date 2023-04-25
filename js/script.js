@@ -237,7 +237,7 @@ function tagClickHandler(event){
 
     activeTagLink.classList.remove('active');
 
-  /* [DONE] END LOOP: for each active tag link */
+    /* [DONE] END LOOP: for each active tag link */
 
   }
 
