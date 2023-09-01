@@ -5,6 +5,7 @@
 $color-main: rgb(255, 102, 0);
 $color-light: #fff;
 $color-dark: #444;
+$color-black: #000;
 
 $font-logo: 'Rubik Dirt', cursive;
 $font-header: 'Noto Sans JP', sans-serif;
@@ -19,7 +20,7 @@ $font-text: 'Crimson Text', serif;
 body {
   background: $color-light;
   font-family: $font-text;
-  color: $color-dark;
+  color: $color-black;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
