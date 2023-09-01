@@ -40,7 +40,7 @@ body {
   color: #777777;
 }
 
-.section-title, .post-author, .list, .logo + span, h2, h3, h4 {
+.section-title, .post-author, .list, .logo + span, h2, h3, h4, .post-tags {
   font-family: "Noto Sans JP", sans-serif;
 }
 
