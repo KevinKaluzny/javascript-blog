@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans+JP:wght@600&family=Rubik+Dirt&display=swap');
 
 /* Variables */
 
@@ -6,9 +6,9 @@ $color-main: rgb(255, 102, 0);
 $color-light: #fff;
 $color-dark: #444;
 
-$font-logo: 'Sacramento', cursive;
-$font-header: 'Oswald', sans-serif;
-$font-text: 'Source Sans Pro', sans-serif;
+$font-logo: 'Rubik Dirt', cursive;
+$font-header: 'Noto Sans JP', sans-serif;
+$font-text: 'Crimson Text', serif;
 
 /* Global */
 
@@ -75,7 +75,7 @@ header {
 /* Logo */
 
 .logo {
-  //font-family: $font-logo;
+  font-family: $font-logo;
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
