@@ -50,6 +50,7 @@ header {
   border: 10px solid $color-dark;
   width: 600px;
   margin: 50px auto;
+  text-align: center;
 }
 
 .wrapper {
@@ -78,7 +79,11 @@ header {
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
-  text-align: center;
+}
+
+.logo + span {
+  font-family: $font-header;
+  font-size: 20px;
 }
 
 /* Lists */
