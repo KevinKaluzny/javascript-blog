@@ -35,7 +35,6 @@ body {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-family: $font-header;
   font-weight: 600;
   background-color: $color-dark;
   text-align: center;
@@ -44,6 +43,10 @@ body {
     font-weight: 400;
     color: lighten($color-dark, 20%);
   }
+}
+
+.section-title, .post-author, .list, .logo + span, h2, h3 {
+  font-family: $font-header;
 }
 
 /* Layout */
@@ -87,7 +90,6 @@ header {
 }
 
 .logo + span {
-  font-family: $font-header;
   font-size: 20px;
 }
 
