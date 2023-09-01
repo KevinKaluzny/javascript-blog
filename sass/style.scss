@@ -2,6 +2,7 @@
 
 /* Variables */
 
+$color-main: rgb(255, 102, 0);
 $color-light: #fff;
 $color-dark: #444;
 
@@ -43,6 +44,13 @@ body {
 
 /* Layout */
 
+header {
+  background-color: $color-main;
+  border: 10px solid $color-dark;
+  width: 600px;
+  margin: 50px auto;
+}
+
 .wrapper {
   display: flex;
   margin-left: 10px;
@@ -67,9 +75,9 @@ body {
 /* Logo */
 
 .logo {
-  font-family: $font-logo;
+  //font-family: $font-logo;
   font-weight: 400;
-  font-size: 104px;
+  font-size: 50px;
   line-height: 1;
   text-align: center;
 }
