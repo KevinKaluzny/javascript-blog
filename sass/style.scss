@@ -53,7 +53,7 @@ body {
   }
 }
 
-.section-title, .post-author, .list, .logo + span, h2, h3 {
+.section-title, .post-author, .list, .logo + span, h2, h3, h4 {
   font-family: $font-header;
 }
 
@@ -91,6 +91,20 @@ header {
   background: $color-light;
   margin-right: 10px;
   padding: 40px;
+}
+
+.info {
+  border: 5px dotted $color-dark;
+  padding: 20px;
+  font-family: $font-header;
+  h4 {
+    font-style: italic;
+    i {
+      display: inline-block;
+      color: $color-main;
+      margin-right: 5px;
+    }
+  }
 }
 
 /* Logo */
