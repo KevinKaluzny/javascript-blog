@@ -27,15 +27,18 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
 .section-title {
-  font-size: 22px;
+  font-size: 18px;
   text-transform: uppercase;
+  letter-spacing: 10px;
   font-family: $font-header;
   font-weight: 600;
+  background-color: $color-dark;
+  text-align: center;
   span {
     text-transform: none;
     font-weight: 400;
