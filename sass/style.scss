@@ -167,7 +167,12 @@ a {
 .list-horizontal {
   li {
     display: inline-block;
+    margin-right: 10px;
   }
+}
+
+.post-tags p {
+  width: 200px;
 }
 
 /* Authors */
